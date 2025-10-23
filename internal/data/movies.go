@@ -8,6 +8,6 @@ type Movie struct {
 	Title     string    `json:"title"`
 	Year      int32     `json:"year,omitempty"`
 	Runtime   int32     `json:"runtime,omitempty"`
-	Genres    []string  `json:"genres",omitempty`
+	Genres    []string  `json:"genres,omitempty"`
 	Version   int32     `json:"version"`
 }
